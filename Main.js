@@ -1,4 +1,6 @@
 var mongo = require("mongodb").MongoClient;
+///
+const h = 0;
 
 var average = require("./average.js");
 var pushViewsData = require("./pushViewsData.js");
@@ -16,3 +18,4 @@ async function Main() {
   pushViewsData(client, nicheList3);
 }
 Main();
+//
