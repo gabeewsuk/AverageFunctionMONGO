@@ -5,7 +5,6 @@ async function viewsQuery(searchViews) {
     handle = searchViews[u];
     nicheList.push(handle);
   }
-
   return nicheList;
 }
 module.exports = viewsQuery;

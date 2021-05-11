@@ -54,20 +54,20 @@ async function average(client) {
     //setting average variables
     var averageViews = aveViews / t;
     var averageComments = aveComments / t;
-    var averageShares = aveShares / t;
+    var averageShares = aveShare / t;
     var averageLikes = aveLikes / t;
 
     //print statements for tests
-
     /*
-             console.log(nicheList[i].authorMeta.name)
-            console.log("views:"+aveViews/t);
-            console.log("Comments:"+aveComments/t);
-            console.log("Shares:"+aveShare/t);
-            console.log("Likes:"+aveLikes/t);
-            */
 
+    console.log(nicheList[i].authorMeta.name);
+    console.log("views:" + aveViews / t);
+    console.log("Comments:" + aveComments / t);
+    console.log("Shares:" + aveShare / t);
+    console.log("Likes:" + aveLikes / t);
+*/
     //pushing the data for each user from the loop into  the object
+
     averageList.push({
       id: i,
       name: nicheList[i].authroMeta.name,

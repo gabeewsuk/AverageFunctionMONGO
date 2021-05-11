@@ -8,7 +8,9 @@ pushViewsData = async (client) => {
   const influencersCollection = db.collection("influencers");
 
   averageObejct = average();
+  console.log(JSON.stringify(averageObject));
   //parsing through averaObject object to  update database
+  /*
   for (var i = 1; i < averageObject.length; i++) {
     influencersCollection.update(
       { "authorMeta.name": averageObject[i].name },
@@ -24,6 +26,7 @@ pushViewsData = async (client) => {
       }
     );
   }
+  */
 };
 
 module.exports = pushViewsData;
